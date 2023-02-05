@@ -57,6 +57,9 @@
 
     
   }
+body {
+  min-height: 100vh;
+}
 
   main {
     background-color: var(--mainBG);
@@ -98,10 +101,12 @@
     .icon {
       opacity: 1;
       position: absolute;
-      top: 42%;
-      left: 43%;
-      
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
     }
+
 
    .overlay {
     background-color: var(--Cyan);
@@ -114,10 +119,11 @@
   }
 
   .overlay:hover {
-    opacity: 0.6;
+    background-color: rgba(38, 252, 245, 0.5);
+    opacity: 1;
   }
 
-    .title {
+    .h1 {
         color: var(--White);
         font-family: "Outfit";
         font-weight: 400;
